@@ -1,10 +1,12 @@
 {
-  "name": "with-fastify",
+  "name": "religo-backend",
   "version": "0.0.0",
   "private": true,
+  "author": "Ashutosh7i",
   "scripts": {
     "build": "turbo run build",
     "clean": "turbo run clean",
+    "predev": "turbo run build --filter=@repo/fastify",
     "dev": "turbo run dev",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "lint": "turbo run lint",
